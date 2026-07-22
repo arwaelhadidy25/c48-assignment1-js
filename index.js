@@ -173,8 +173,9 @@ function test() {
 console.log(test2) //udefined  //Variable declared with var are hoisted and initialized with undefined
 var test2 =() => {
   //  x=10; //ReferenceError dead zone
-   // console.log(x);  //dead zone
+   // console.log(x);  //TDZ
     let x;
+
 }
 
 //---------------------------------------------------------------------
